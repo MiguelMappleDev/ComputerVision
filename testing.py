@@ -11,6 +11,7 @@ def main():
     cmd = "python --version"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     print(f"Python version {result.stdout}")
+    # commiting
 
 
 if __name__ == "__main__":
