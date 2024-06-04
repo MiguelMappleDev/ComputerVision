@@ -4,3 +4,9 @@ from vscode
     git clone https://github.com/MiguelMappleDev/ComputerVision.git
     git config --global user.name "MiguelMappleDev"
     git config --global user.email "mfelipevargassfa@gmail.com"
+
+    Validate Status
+    git status
+
+    Commit changes
+    Source Control Ctrl+Shift+G
