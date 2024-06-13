@@ -3,15 +3,19 @@
 import subprocess
 import importlib.util
 
-def validatelibraries(library):
-    pass
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+# %matplotlib inline
+from IPython.display import Image
+libraries = ["cv2", "numpy", "matplotlib.pyplot", "IPython"]
+
+from validatelibraries import validatelibraries
 
 def main():
-    print(f"Validating Libraries")
-    cmd = "python --version"
-    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-    print(f"Python version {result.stdout}")
-    # commiting changes
+ 
+    validatelibraries(libraries)
+
 
 
 if __name__ == "__main__":
