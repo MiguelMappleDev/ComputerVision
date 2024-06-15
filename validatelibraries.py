@@ -14,5 +14,4 @@ def validatelibraries(libs):
         
         except ImportError:
             print(f"{lib} is not installed.")
-            cmd = f"pip install {lib}"
             subprocess.run(["pip", "install", lib])
