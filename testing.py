@@ -18,7 +18,7 @@ def main():
 
     # Open an image file
     img = Image.open('src\checkerboard_18x18.png')
-    img2 = Image.open('src\checkerboard_84x84.jpg')
+    img2 = Image.open('src\checkerboard_84x84.jpg ')
     # Display image
     img.show()
     img2.show()
